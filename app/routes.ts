@@ -12,8 +12,10 @@ export default [
 		...prefix("auth", [
 			route("login", "./routes/auth/login.tsx"),
 			route("logout", "./routes/auth/logout.tsx"),
+
 			route("register", "./routes/auth/register.tsx"),
 		]),
+
 		...prefix("app", [
 			layout("./routes/app/app-middleware.tsx", [
 				layout("./routes/app/app-layout.tsx", [
