@@ -25,7 +25,7 @@ export default function TopPage() {
 					新規アカウント登録
 				</Link>
 			</Button>
-			S
+			
 			<Button variant="brand" size="xl" className="rounded-2xl" asChild>
 				<Link to="/app">
 					ホームへ
