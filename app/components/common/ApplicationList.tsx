@@ -1,3 +1,4 @@
+import type { LucideIcon } from "lucide-react"
 import { CopyIcon } from "lucide-react"
 import { useFetcher } from "react-router"
 import { formatPlainDateTime } from "~/lib/plain-datetime-utils"
@@ -14,7 +15,7 @@ export function ApplicationList({
 	content,
 }: {
 	applications: LiveApplicationWithUrl[]
-	buttonIcon: any
+	buttonIcon: LucideIcon
 	intent: string
 	content: string
 }) {
