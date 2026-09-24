@@ -10,12 +10,12 @@ import { showToast } from "./toast"
 
 export function ApplicationList({
 	applications,
-	buttonIcon,
+	ButtonIcon,
 	intent,
 	content,
 }: {
 	applications: LiveApplicationWithUrl[]
-	buttonIcon: LucideIcon
+	ButtonIcon: LucideIcon
 	intent: string
 	content: string
 }) {
@@ -66,7 +66,7 @@ export function ApplicationList({
 											fetcher2.submit(formData, { method: "POST" })
 										}}
 									>
-										{buttonIcon}
+										<ButtonIcon />
 									</Button>
 									<Button
 										size="icon-lg"

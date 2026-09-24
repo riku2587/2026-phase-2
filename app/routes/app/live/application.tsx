@@ -76,14 +76,14 @@ export default function LiveApplicationPage({
 			<CreateForm />
 
 			<ApplicationList
-				buttonIcon={PauseIcon}
+				ButtonIcon={PauseIcon}
 				applications={availableApplicationsWithUrl}
 				intent="suspend-application"
 				content="有効なリンク"
 			/>
 			<Separator />
 			<ApplicationList
-				buttonIcon={PlayIcon}
+				ButtonIcon={PlayIcon}
 				applications={suspendedApplicationsWithUrl}
 				intent="enable-application"
 				content="無効なリンク"
